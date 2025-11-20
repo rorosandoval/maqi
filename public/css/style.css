@@ -359,11 +359,38 @@ button {
   align-items: center;
   justify-content: center;
   padding: 3rem;
+
 }
 
 .txt-overlay {
-  max-width: 95%;
+  max-width: 94%;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+@media (min-width: 1240px) and (max-width: 1399px) {
+  .txt-overlay {
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 1441px)  {
+  .txt-overlay {
+        max-width: 65%;
+        margin: 0 auto;
+        padding: 0 2rem 0rem 5rem;
+  }
+} 
+/* 
+@media (min-width: 992px) {
+  .txt-overlay {
+    flex: 0 0 auto;
+        width: 66.66666667%;
+    }
+  } */
+
 
 .col-md-5 img {
   width: 100%;
@@ -529,15 +556,15 @@ hr {
 }
 
 .banner-mobile-img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .navbar-toggler:active {
-    border: 1px solid #5af3bb!important;
+  border: 1px solid #5af3bb !important;
 }
 
 .navbar-toggler:focus {
-    outline: 3px solid #5af3bb!important;
-    border-radius: 8px;
+  outline: 3px solid #5af3bb !important;
+  border-radius: 8px;
 }

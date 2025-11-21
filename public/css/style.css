@@ -20,6 +20,17 @@ button {
   padding-top: 20px;
 }
 
+a {
+  text-decoration: none;
+  font-weight: 500;
+  color: inherit;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+
 .nav-links > a {
   margin: 10px;
   font-size: 20px;
@@ -34,6 +45,7 @@ button {
 .nav-links > a:hover {
   outline: 3px solid #5af3bb;
   border-radius: 999px;
+  text-decoration: none;
 }
 .navbar-nav {
   gap: 2rem;
@@ -185,6 +197,15 @@ button {
   font-weight: 400;
 }
 
+.box a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.box a:hover {
+  text-decoration: underline;
+}
+
 .box-2 {
   display: flex;
   flex-direction: column;
@@ -324,10 +345,12 @@ button {
 .boton-primary {
   background-color: #5af3bb;
   border-radius: 999px;
+  text-decoration: none;
 }
 
 .boton-primary:hover {
   background-color: #24dbd7;
+  text-decoration: none;
 }
 
 .boton-primary:active {

@@ -69,21 +69,21 @@ a:hover{
 }
 
 .linkedin-btn {
-  background-image: url("/public/img/linkedin.svg");
+  background-image: url("../img/linkedin.svg");
 }
 
 .linkedin-btn:hover {
-  background-image: url("/public/img/linkedin-hover.svg");
+  background-image: url("../img/linkedin-hover.svg");
 }
 .x-btn {
-  background-image: url("/public/img/x.svg");
+  background-image: url("../img/x.svg");
 }
 .x-btn:hover {
-  background-image: url("/public/img/x-hover.svg");
+  background-image: url("../img/x-hover.svg");
 }
 
 .banner-hero {
-  background-image: url("/public/img/banner-hero.png");
+  background-image: url("../img/banner-hero.png");
   background-size: cover;
   background-position: center;
   min-height: 400px;
@@ -268,7 +268,7 @@ a:hover{
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("/public/img/hover-team.png");
+  background-image: url("../img/hover-team.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -375,7 +375,7 @@ a:hover{
 }
 
 .fondo-txt {
-  background-image: url("/public/img/img-1.png");
+  background-image: url("../img/img-1.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -483,7 +483,7 @@ hr {
 }
 
 .btn-close {
-  --bs-btn-close-bg: url("/public/img/close-btn.svg");
+  --bs-btn-close-bg: url("../img/close-btn.svg");
   --bs-btn-close-color: #000;
   --bs-btn-close-opacity: 1 !important;
   --bs-btn-close-hover-opacity: 0.75;
@@ -544,7 +544,7 @@ hr {
 }
 
 .bg-tecnology {
-  background-image: url("/public/img/bg-tecnology-2.svg");
+  background-image: url("../img/bg-tecnology-2.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
